@@ -13,7 +13,7 @@ describe "StaticPages" do
     end
   end
 
-  describe "About" do
+  describe "About Us.." do
     it "should have the constant 'About'" do
       visit '/static_pages/about'
       page.should have_content('About')
