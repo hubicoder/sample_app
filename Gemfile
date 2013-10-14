@@ -30,6 +30,7 @@ group :test do
   gem 'terminal-notifier-guard'
   gem 'guard-spork'
   gem 'spork'
+  gem 'factory_girl_rails', '1.4.0'
 end
 
 gem 'annotate', group: :development
