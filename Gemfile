@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'rspec-rails'
 gem 'guard-rspec'
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby', '3.0.1'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -30,6 +31,8 @@ group :test do
   gem 'guard-spork'
   gem 'spork'
 end
+
+gem 'annotate', group: :development
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
