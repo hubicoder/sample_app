@@ -8,3 +8,6 @@ this is test app.
 * rails
 * rspec
 
+
+    print 'test'
+    print 'hello'
